@@ -1,0 +1,5 @@
+def is_palidrome(word):
+    reversed_word = word.join(reversed(word))
+    return reversed_word == word
+
+print(is_palidrome(input()))
